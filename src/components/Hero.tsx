@@ -4,7 +4,16 @@ import { ArrowRight, CheckCircle, MessageCircle } from 'lucide-react';
 const Hero = () => {
   return (
     <section id="inicio" className="pt-20 min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-black relative overflow-hidden flex items-center">
-      {/* Background spiral effect */}
+      {/* Background image */}
+      <div className="absolute inset-0 opacity-20">
+        <img 
+          src="/lovable-uploads/048cd7b8-b207-47d8-85c6-f2f457465677.png" 
+          alt="Spiral background" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+      
+      {/* Background spiral effect overlay */}
       <div className="absolute inset-0">
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 opacity-30">
           <div className="w-full h-full border-4 border-blue-400 rounded-full animate-spin" style={{ animationDuration: '20s' }}></div>
