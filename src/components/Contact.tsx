@@ -1,5 +1,5 @@
 
-import { Phone, Mail, MapPin, Clock, MessageSquare, Calendar } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, MessageSquare, Instagram } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -7,11 +7,12 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-            Entre em <span className="text-blue-600">Contato</span>
+            Vamos cuidar da sua <span className="text-blue-600">dor e do seu movimento?</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Estamos prontos para ajudar você a viver sem dor. Agende sua consulta e comece sua jornada de recuperação hoje mesmo.
-          </p>
+          <div className="space-y-2 text-lg text-gray-700">
+            <p>✔ Atendimento presencial em São José dos Campos/SP</p>
+            <p>✔ Sessões presenciais e exclusivas para quem busca resultado de verdade</p>
+          </div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
@@ -21,130 +22,70 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-start space-x-4 p-6 bg-blue-50 rounded-xl">
                 <div className="bg-blue-600 p-3 rounded-full">
-                  <Phone className="text-white" size={24} />
+                  <MapPin className="text-white" size={24} />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-800 mb-1">Telefone</h4>
-                  <p className="text-gray-600">(12) 99999-9999</p>
-                  <p className="text-sm text-gray-500">Ligações e WhatsApp</p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4 p-6 bg-teal-50 rounded-xl">
-                <div className="bg-teal-600 p-3 rounded-full">
-                  <Mail className="text-white" size={24} />
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-800 mb-1">E-mail</h4>
-                  <p className="text-gray-600">contato@edufisio.com.br</p>
-                  <p className="text-sm text-gray-500">Resposta em até 24h</p>
+                  <h4 className="font-semibold text-gray-800 mb-1">Endereço</h4>
+                  <p className="text-gray-600">Rua Havana, 34</p>
+                  <p className="text-gray-600">São José dos Campos/SP</p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4 p-6 bg-green-50 rounded-xl">
                 <div className="bg-green-600 p-3 rounded-full">
-                  <MapPin className="text-white" size={24} />
+                  <Phone className="text-white" size={24} />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-800 mb-1">Endereço</h4>
-                  <p className="text-gray-600">Rua das Palmeiras, 123</p>
-                  <p className="text-gray-600">Centro - São José dos Campos/SP</p>
-                  <p className="text-sm text-gray-500">CEP: 12345-000</p>
+                  <h4 className="font-semibold text-gray-800 mb-1">Telefone</h4>
+                  <p className="text-gray-600">(12) 99740-5005</p>
+                  <p className="text-sm text-gray-500">WhatsApp disponível</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4 p-6 bg-purple-50 rounded-xl">
-                <div className="bg-purple-600 p-3 rounded-full">
-                  <Clock className="text-white" size={24} />
+              <div className="flex items-start space-x-4 p-6 bg-pink-50 rounded-xl">
+                <div className="bg-pink-600 p-3 rounded-full">
+                  <Instagram className="text-white" size={24} />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-800 mb-1">Horário de Funcionamento</h4>
-                  <p className="text-gray-600">Segunda a Sexta: 8h às 18h</p>
-                  <p className="text-gray-600">Sábado: 8h às 12h</p>
-                  <p className="text-sm text-gray-500">Domingo: Fechado</p>
+                  <h4 className="font-semibold text-gray-800 mb-1">Instagram</h4>
+                  <p className="text-gray-600">@edufisioesportivo</p>
+                  <p className="text-sm text-gray-500">Siga para dicas e conteúdos</p>
                 </div>
               </div>
-            </div>
-
-            <div className="mt-8 bg-gradient-to-r from-blue-600 to-teal-500 rounded-2xl p-8 text-white">
-              <h4 className="text-xl font-bold mb-4">Primeira Consulta Especial</h4>
-              <p className="mb-4">Avaliação completa + Primeira sessão de tratamento</p>
-              <div className="text-3xl font-bold mb-2">R$ 150</div>
-              <p className="text-sm opacity-90">Consultas seguintes: R$ 120</p>
             </div>
           </div>
 
-          <div className="bg-gray-50 rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-gray-800 mb-6">Agende sua Consulta</h3>
+          <div className="bg-gradient-to-br from-blue-600 to-teal-500 rounded-2xl p-8 text-white text-center">
+            <h3 className="text-2xl font-bold mb-6">Agende sua Sessão</h3>
+            <p className="text-xl mb-8 opacity-90">
+              Não deixe a dor limitar sua vida. Entre em contato e descubra como posso ajudar você.
+            </p>
             
-            <form className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-gray-700 font-semibold mb-2">Nome Completo</label>
-                  <input 
-                    type="text" 
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
-                    placeholder="Seu nome completo"
-                  />
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-semibold mb-2">Telefone</label>
-                  <input 
-                    type="tel" 
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
-                    placeholder="(12) 99999-9999"
-                  />
-                </div>
-              </div>
+            <div className="space-y-4">
+              <a 
+                href="https://wa.me/5512997405005" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center justify-center space-x-2 hover-scale w-full"
+              >
+                <MessageSquare size={24} />
+                <span>Agende sua sessão agora no WhatsApp</span>
+              </a>
+              
+              <a 
+                href="tel:+5512997405005" 
+                className="bg-white/20 hover:bg-white/30 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2 w-full"
+              >
+                <Phone size={24} />
+                <span>Ligar Agora</span>
+              </a>
+            </div>
 
-              <div>
-                <label className="block text-gray-700 font-semibold mb-2">E-mail</label>
-                <input 
-                  type="email" 
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
-                  placeholder="seu@email.com"
-                />
-              </div>
-
-              <div>
-                <label className="block text-gray-700 font-semibold mb-2">Qual sua principal queixa?</label>
-                <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent">
-                  <option>Selecione sua condição</option>
-                  <option>Dor nas costas</option>
-                  <option>Dor de cabeça/Enxaqueca</option>
-                  <option>Lesão esportiva</option>
-                  <option>Dor muscular</option>
-                  <option>Problema postural</option>
-                  <option>Outro</option>
-                </select>
-              </div>
-
-              <div>
-                <label className="block text-gray-700 font-semibold mb-2">Descreva sua situação</label>
-                <textarea 
-                  rows={4}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
-                  placeholder="Conte-nos mais sobre sua dor ou condição..."
-                ></textarea>
-              </div>
-
-              <div className="grid md:grid-cols-2 gap-4">
-                <button 
-                  type="submit"
-                  className="bg-gradient-to-r from-blue-600 to-teal-500 text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center space-x-2"
-                >
-                  <Calendar size={20} />
-                  <span>Agendar Consulta</span>
-                </button>
-                <a 
-                  href="https://wa.me/5512999999999"
-                  className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center space-x-2"
-                >
-                  <MessageSquare size={20} />
-                  <span>WhatsApp</span>
-                </a>
-              </div>
-            </form>
+            <div className="mt-8 pt-8 border-t border-white/20">
+              <p className="text-sm opacity-80">
+                "Movimento é liberdade. Dor não é normal."
+              </p>
+            </div>
           </div>
         </div>
       </div>

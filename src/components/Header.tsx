@@ -14,16 +14,17 @@ const Header = () => {
               <span className="text-white font-bold text-lg">EF</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-800">Edu Fisio</h1>
-              <p className="text-sm text-gray-600">Dr. Eduardo França Leme</p>
+              <h1 className="text-xl font-bold text-gray-800">Dr. Eduardo França</h1>
+              <p className="text-sm text-gray-600">Fisioterapeuta | Osteopata | Quiropraxista</p>
             </div>
           </div>
           
           <nav className="hidden md:flex space-x-8">
             <a href="#inicio" className="text-gray-700 hover:text-blue-600 transition-colors">Início</a>
-            <a href="#especialidades" className="text-gray-700 hover:text-blue-600 transition-colors">Especialidades</a>
             <a href="#sobre" className="text-gray-700 hover:text-blue-600 transition-colors">Sobre</a>
-            <a href="#resultados" className="text-gray-700 hover:text-blue-600 transition-colors">Resultados</a>
+            <a href="#tratamentos" className="text-gray-700 hover:text-blue-600 transition-colors">Tratamentos</a>
+            <a href="#depoimentos" className="text-gray-700 hover:text-blue-600 transition-colors">Depoimentos</a>
+            <a href="#cursos" className="text-gray-700 hover:text-blue-600 transition-colors">Cursos</a>
             <a href="#contato" className="text-gray-700 hover:text-blue-600 transition-colors">Contato</a>
           </nav>
 
@@ -33,11 +34,11 @@ const Header = () => {
               <span>São José dos Campos/SP</span>
             </div>
             <a 
-              href="tel:+5512999999999" 
-              className="bg-gradient-to-r from-blue-600 to-teal-500 text-white px-4 py-2 rounded-lg hover:shadow-lg transition-all duration-300 flex items-center space-x-2"
+              href="https://wa.me/5512997405005" 
+              className="bg-gradient-to-r from-green-600 to-green-500 text-white px-4 py-2 rounded-lg hover:shadow-lg transition-all duration-300 flex items-center space-x-2"
             >
               <Phone size={16} />
-              <span>Agendar Consulta</span>
+              <span>WhatsApp</span>
             </a>
           </div>
 
@@ -53,15 +54,16 @@ const Header = () => {
           <div className="md:hidden py-4 border-t animate-fade-in">
             <nav className="flex flex-col space-y-4">
               <a href="#inicio" className="text-gray-700 hover:text-blue-600 transition-colors">Início</a>
-              <a href="#especialidades" className="text-gray-700 hover:text-blue-600 transition-colors">Especialidades</a>
               <a href="#sobre" className="text-gray-700 hover:text-blue-600 transition-colors">Sobre</a>
-              <a href="#resultados" className="text-gray-700 hover:text-blue-600 transition-colors">Resultados</a>
+              <a href="#tratamentos" className="text-gray-700 hover:text-blue-600 transition-colors">Tratamentos</a>
+              <a href="#depoimentos" className="text-gray-700 hover:text-blue-600 transition-colors">Depoimentos</a>
+              <a href="#cursos" className="text-gray-700 hover:text-blue-600 transition-colors">Cursos</a>
               <a href="#contato" className="text-gray-700 hover:text-blue-600 transition-colors">Contato</a>
               <a 
-                href="tel:+5512999999999" 
-                className="bg-gradient-to-r from-blue-600 to-teal-500 text-white px-4 py-2 rounded-lg text-center"
+                href="https://wa.me/5512997405005" 
+                className="bg-gradient-to-r from-green-600 to-green-500 text-white px-4 py-2 rounded-lg text-center"
               >
-                Agendar Consulta
+                WhatsApp
               </a>
             </nav>
           </div>

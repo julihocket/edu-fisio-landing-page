@@ -5,91 +5,74 @@ const About = () => {
   return (
     <section id="sobre" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-              Conheça o <span className="text-blue-600">Dr. Eduardo França Leme</span>
-            </h2>
-            <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Com mais de 10 anos de experiência em fisioterapia, Dr. Eduardo é especialista em 
-              Medicina Tradicional Chinesa, Osteopatia e Recovery avançado. Sua abordagem 
-              integra técnicas ancestrais com os mais modernos métodos de tratamento.
+        <div className="text-center mb-12">
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
+            Quem é <span className="text-blue-600">Dr. Eduardo França?</span>
+          </h2>
+        </div>
+
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="space-y-6">
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Sou fisioterapeuta, quiropraxista e terapeuta integrativo, atuando com os princípios da osteopatia, 
+              medicinas orientais e terapias manuais. São mais de 25 anos ajudando pessoas a se libertarem da dor, 
+              recuperarem seu movimento e viverem com mais saúde, leveza e qualidade de vida.
             </p>
             
-            <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Minha missão é ajudar pessoas a se libertarem da dor, recuperarem sua capacidade de movimento 
+              e viverem com mais qualidade de vida e performance.
+            </p>
+
+            <div className="bg-blue-50 p-6 rounded-xl">
+              <h4 className="font-bold text-gray-800 mb-3">Formação Atual</h4>
+              <p className="text-gray-700">
+                Finalizo a formação internacional em Osteopatia (DOMP) pela The Osteopathic College of Ontario (Canadá) 
+                e ALO – Academia Latinoamericana de Osteopatia em dezembro de 2025.
+              </p>
+            </div>
+
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Sou pós-graduado em Fisiologia Clínica do Exercício pela UFSCAR, além de acumular formações em 
+              quiropraxia, acupuntura, massoterapia, liberação miofascial, terapias integrativas e recovery esportivo.
+            </p>
+          </div>
+
+          <div className="space-y-6">
+            <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-blue-50 p-6 rounded-xl">
-                <GraduationCap className="text-blue-600 mb-3" size={32} />
-                <h4 className="font-bold text-gray-800 mb-2">Formação Acadêmica</h4>
-                <p className="text-gray-600 text-sm">Fisioterapeuta com especializações em MTC e Osteopatia</p>
+                <Users className="text-blue-600 mb-3" size={32} />
+                <h4 className="font-bold text-gray-800 mb-2">25+ Anos</h4>
+                <p className="text-gray-600 text-sm">De experiência transformando vidas</p>
               </div>
               <div className="bg-teal-50 p-6 rounded-xl">
                 <Award className="text-teal-600 mb-3" size={32} />
-                <h4 className="font-bold text-gray-800 mb-2">Certificações</h4>
-                <p className="text-gray-600 text-sm">Acupuntura, Osteopatia Estrutural e Recovery</p>
+                <h4 className="font-bold text-gray-800 mb-2">Especialista</h4>
+                <p className="text-gray-600 text-sm">Em dor, movimento e performance</p>
               </div>
               <div className="bg-green-50 p-6 rounded-xl">
-                <Users className="text-green-600 mb-3" size={32} />
-                <h4 className="font-bold text-gray-800 mb-2">+1000 Pacientes</h4>
-                <p className="text-gray-600 text-sm">Atendidos com excelência ao longo da carreira</p>
+                <GraduationCap className="text-green-600 mb-3" size={32} />
+                <h4 className="font-bold text-gray-800 mb-2">Formação</h4>
+                <p className="text-gray-600 text-sm">Internacional em Osteopatia</p>
               </div>
               <div className="bg-purple-50 p-6 rounded-xl">
                 <MapPin className="text-purple-600 mb-3" size={32} />
-                <h4 className="font-bold text-gray-800 mb-2">São José dos Campos</h4>
-                <p className="text-gray-600 text-sm">Atendimento em clínica moderna e equipada</p>
+                <h4 className="font-bold text-gray-800 mb-2">Localização</h4>
+                <p className="text-gray-600 text-sm">São José dos Campos/SP</p>
               </div>
             </div>
 
-            <blockquote className="bg-gradient-to-r from-blue-600 to-teal-500 text-white p-6 rounded-xl">
-              <p className="text-lg mb-4">
-                "Minha missão é transformar a vida dos meus pacientes através de tratamentos 
-                personalizados e baseados em evidência científica. Dor não é normal, e cada 
-                pessoa merece viver sem limitações."
+            <div className="bg-gray-50 p-6 rounded-xl">
+              <h4 className="font-bold text-gray-800 mb-3">Atuação Esportiva</h4>
+              <p className="text-gray-700 leading-relaxed">
+                Atuo no atendimento de pessoas que buscam aliviar dores, melhorar o movimento e otimizar performance – 
+                sejam atletas, esportistas ou qualquer pessoa que não aceita viver com dor.
               </p>
-              <footer className="font-semibold">— Dr. Eduardo França Leme</footer>
-            </blockquote>
-          </div>
-
-          <div className="relative">
-            <div className="bg-gradient-to-br from-blue-600 to-teal-500 rounded-3xl p-8 text-white shadow-2xl">
-              <h3 className="text-2xl font-bold mb-6">Diferenciais do Tratamento</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center mt-1">
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-1">Abordagem Integrativa</h4>
-                    <p className="text-white/80 text-sm">Combinação de técnicas orientais e ocidentais para resultados superiores</p>
-                  </div>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center mt-1">
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-1">Tratamento Personalizado</h4>
-                    <p className="text-white/80 text-sm">Cada protocolo é único e adaptado às necessidades individuais</p>
-                  </div>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center mt-1">
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-1">Acompanhamento Contínuo</h4>
-                    <p className="text-white/80 text-sm">Monitoramento constante da evolução e ajustes quando necessário</p>
-                  </div>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center mt-1">
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-1">Tecnologia Avançada</h4>
-                    <p className="text-white/80 text-sm">Equipamentos modernos aliados às técnicas tradicionais</p>
-                  </div>
-                </li>
-              </ul>
+              <p className="text-gray-700 leading-relaxed mt-3">
+                Meu trabalho também vai além do consultório. Participo ativamente dos principais eventos de Mountain Bike 
+                e Trail Run do país, oferecendo fisioterapia de recovery para atletas em desafios como Brasil Ride, 
+                Sertões MTB, Desafio 28 Praias e KTR Ultra da Canastra.
+              </p>
             </div>
           </div>
         </div>
