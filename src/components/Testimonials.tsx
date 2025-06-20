@@ -4,25 +4,32 @@ import { Star, Quote } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Maria Silva",
-      condition: "Dor crônica nas costas",
-      text: "Após 25 anos de experiência, Dr. Eduardo realmente sabe como tratar dor. Sua abordagem integrativa me devolveu a qualidade de vida que eu pensava ter perdido para sempre.",
+      name: "Katyuche Rodrigues",
+      condition: "Corrida / Tendinite no ombro",
+      text: "Conheci o trabalho do Eduardo, através de uma indicação de uma vizinha. Eu estou querendo começar a correr, e ao mesmo tempo estava sofrendo com uma tendinite/bursite no ombro direito, após conversar com o Edu sobre os treinos iniciais de corrida, aproveitamos e começamos a tratar o ombro. Neste dia, fui trabalhar com bem menos dores e um alívio imenso de ter encontrado um profissional tecnicamente e humanamente excepcional. Só tenho a agradecer à melhor indicação da vida 🙏",
       rating: 5,
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b37c?w=150&h=150&fit=crop&crop=face"
     },
     {
-      name: "João Santos",
-      condition: "Atleta de Mountain Bike",
-      text: "O Dr. Eduardo me acompanha em competições e seu trabalho de recovery é excepcional. Graças a ele consigo manter alta performance mesmo em provas longas.",
+      name: "Miguel Ângelo Souza",
+      condition: "Corredor / Problema no quadril",
+      text: "Tive um problema sério na posterior da coxa direita, e o Dr Eduardo França fez um excelente trabalho de recuperação na terça-feira dia 18/03/25 e no dia 23/03/25 eu tava pronto pra participar da meia maratona de SJC, onde não senti dor nenhuma do início ao fim da prova. Recomendo a todos os trabalhos do Dr Eduardo, que é um excelente profissional.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
     },
     {
-      name: "Ana Costa",
-      condition: "Disfunção postural",
-      text: "A combinação de osteopatia e quiropraxia que o Dr. Eduardo utiliza é incrível. Minha postura melhorou completamente e as dores sumiram.",
+      name: "Luciane Bagnara",
+      condition: "Praticante de esportes",
+      text: "Sensacional! Minha pergunta ao sair do consultório foi: como não descobri o Edu antes? É o tipo de fisioterapia que todo mundo tinha que fazer. A gente acaba se acostumando a conviver com a dor e o Edu prova pra gente que não precisamos passar por isso. Vale muito a pena!!! Especialmente pra quem pratica esporte.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      name: "Alexandre de Oliveira",
+      condition: "Dor nas costas",
+      text: "Profissional muito qualificado e competente, além de resolver as dores na primeira sessão, deu dicas excelentes pós tratamento, estou muito satisfeito.",
+      rating: 5,
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
     }
   ];
 
@@ -38,11 +45,11 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-gray-50 rounded-2xl p-8 relative hover:shadow-lg transition-all duration-300">
               <Quote className="text-blue-600 mb-4" size={32} />
-              <p className="text-gray-700 mb-6 leading-relaxed">{testimonial.text}</p>
+              <p className="text-gray-700 mb-6 leading-relaxed text-sm">{testimonial.text}</p>
               
               <div className="flex items-center space-x-4">
                 <img 

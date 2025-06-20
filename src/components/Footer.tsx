@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center space-x-2">
               <Instagram size={16} />
-              <span>@edufisioesportivo</span>
+              <span>@eddufisio</span>
             </div>
           </div>
 

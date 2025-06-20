@@ -48,7 +48,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800 mb-1">Instagram</h4>
-                  <p className="text-gray-600">@edufisioesportivo</p>
+                  <p className="text-gray-600">@eddufisio</p>
                   <p className="text-sm text-gray-500">Siga para dicas e conteúdos</p>
                 </div>
               </div>
