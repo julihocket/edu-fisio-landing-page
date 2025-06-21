@@ -31,7 +31,10 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4 p-4 md:p-6 bg-green-50 rounded-xl">
+              <a 
+                href="tel:+5512997405005"
+                className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4 p-4 md:p-6 bg-green-50 rounded-xl hover:bg-green-100 transition-colors cursor-pointer"
+              >
                 <div className="bg-green-600 p-3 rounded-full flex-shrink-0">
                   <Phone className="text-white" size={24} />
                 </div>
@@ -40,9 +43,14 @@ const Contact = () => {
                   <p className="text-gray-600">(12) 99740-5005</p>
                   <p className="text-sm text-gray-500">WhatsApp disponível</p>
                 </div>
-              </div>
+              </a>
 
-              <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4 p-4 md:p-6 bg-pink-50 rounded-xl">
+              <a 
+                href="https://instagram.com/eddufisio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4 p-4 md:p-6 bg-pink-50 rounded-xl hover:bg-pink-100 transition-colors cursor-pointer"
+              >
                 <div className="bg-pink-600 p-3 rounded-full flex-shrink-0">
                   <Instagram className="text-white" size={24} />
                 </div>
@@ -51,7 +59,7 @@ const Contact = () => {
                   <p className="text-gray-600">@eddufisio</p>
                   <p className="text-sm text-gray-500">Siga para dicas e conteúdos</p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
 
