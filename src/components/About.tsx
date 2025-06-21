@@ -39,6 +39,20 @@ const About = () => {
                 Sou pós-graduado em <strong>Fisiologia Clínica do Exercício</strong> pela UFSCAR, além de acumular formações em quiropraxia, acupuntura, massoterapia, liberação miofascial, terapias integrativas e recovery esportivo.
               </p>
             </div>
+
+            {/* Photos of Dr. Eduardo */}
+            <div className="grid grid-cols-2 gap-4 mt-8">
+              <img 
+                src="/lovable-uploads/285a32c3-4942-4f64-b82c-37512186f825.png" 
+                alt="Dr. Eduardo França trabalhando"
+                className="w-full h-48 object-cover rounded-xl shadow-lg"
+              />
+              <img 
+                src="/lovable-uploads/71084be7-ef16-4b44-9083-32b1d48a0332.png" 
+                alt="Dr. Eduardo França em meditação"
+                className="w-full h-48 object-cover rounded-xl shadow-lg"
+              />
+            </div>
           </div>
           
           <div className="space-y-6">

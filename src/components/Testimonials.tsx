@@ -4,6 +4,12 @@ import { Star, Quote } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
+      name: "Nicolas Luiz Ribeiro Pitias",
+      condition: "Diversos tratamentos",
+      text: "Eduardo é uma pessoa educada, dedicada, sensível, que inspira confiança, porque TEM CONFIANÇA NO SERVIÇO QUE ENTREGA! É um profissional de Deus, comprometido com o sucesso, em busca incessante pelos melhores resultados, ao realizar diversos cursos de atualização! Mamãe e eu agradecemos à Deus a oportunidade de conhecê-lo! Louvado seja o Senhor pela sua vida!",
+      rating: 5
+    },
+    {
       name: "Katyuche Rodrigues",
       condition: "Corrida / Tendinite no ombro",
       text: "Conheci o trabalho do Eduardo, através de uma indicação de uma vizinha. Eu estou querendo começar a correr, e ao mesmo tempo estava sofrendo com uma tendinite/bursite no ombro direito, após conversar com o Edu sobre os treinos iniciais de corrida, aproveitamos e começamos a tratar o ombro. Neste dia, fui trabalhar com bem menos dores e um alívio imenso de ter encontrado um profissional tecnicamente e humanamente excepcional. Só tenho a agradecer à melhor indicação da vida 🙏",
@@ -19,12 +25,6 @@ const Testimonials = () => {
       name: "Luciane Bagnara",
       condition: "Praticante de esportes",
       text: "Sensacional! Minha pergunta ao sair do consultório foi: como não descobri o Edu antes? É o tipo de fisioterapia que todo mundo tinha que fazer. A gente acaba se acostumando a conviver com a dor e o Edu prova pra gente que não precisamos passar por isso. Vale muito a pena!!! Especialmente pra quem pratica esporte.",
-      rating: 5
-    },
-    {
-      name: "Alexandre de Oliveira",
-      condition: "Dor nas costas",
-      text: "Profissional muito qualificado e competente, além de resolver as dores na primeira sessão, deu dicas excelentes pós tratamento, estou muito satisfeito.",
       rating: 5
     }
   ];
