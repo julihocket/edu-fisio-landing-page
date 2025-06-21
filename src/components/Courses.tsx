@@ -1,5 +1,5 @@
 
-import { BookOpen, Users, Award, CheckCircle, MessageCircle } from 'lucide-react';
+import { BookOpen, Users, Award, CheckCircle, MessageCircle, ArrowRight } from 'lucide-react';
 
 const Courses = () => {
   const courseFeatures = [
@@ -92,17 +92,21 @@ const Courses = () => {
         </div>
 
         <div className="text-center">
+          <div className="bg-yellow-400 text-black px-6 py-3 rounded-full text-sm font-bold mb-6 inline-block">
+            📚 Turmas limitadas - Inscrições abertas!
+          </div>
           <p className="text-xl mb-8 text-blue-300">
             Se você quer ser mais do que um aplicador de técnicas, aqui é seu lugar.
           </p>
           <a 
-            href="https://wa.me/5512997405005" 
+            href="https://wa.me/5512997405005?text=Olá Dr. Eduardo! Tenho interesse nos seus cursos de formação profissional. Gostaria de mais informações sobre as próximas turmas." 
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gradient-to-r from-green-600 to-green-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-xl transition-all duration-300 inline-flex items-center space-x-2 hover-scale"
+            className="bg-gradient-to-r from-green-600 to-green-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-xl transition-all duration-300 inline-flex items-center space-x-3 hover-scale group"
           >
             <MessageCircle size={24} />
-            <span>Quero mais informações no WhatsApp</span>
+            <span>GARANTIR MINHA VAGA NOS CURSOS</span>
+            <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </a>
         </div>
       </div>

@@ -1,5 +1,5 @@
 
-import { ArrowRight, CheckCircle, MessageCircle } from 'lucide-react';
+import { ArrowRight, CheckCircle, MessageCircle, Phone } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -68,15 +68,31 @@ const Hero = () => {
             </div>
           </div>
 
-          <a 
-            href="https://wa.me/5512997405005" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gradient-to-r from-green-600 to-green-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:shadow-xl transition-all duration-300 inline-flex items-center space-x-2 hover-scale"
-          >
-            <MessageCircle size={24} />
-            <span>Agende sua sessão no WhatsApp</span>
-          </a>
+          {/* CTA otimizado com urgência e dupla opção */}
+          <div className="space-y-4 max-w-md mx-auto">
+            <div className="bg-yellow-400 text-black px-4 py-2 rounded-full text-sm font-semibold mb-4 inline-block animate-pulse">
+              📞 Vagas limitadas para este mês
+            </div>
+            
+            <a 
+              href="https://wa.me/5512997405005?text=Olá! Gostaria de agendar uma sessão com Dr. Eduardo França" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-green-600 to-green-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl transition-all duration-300 inline-flex items-center space-x-3 hover-scale w-full justify-center group"
+            >
+              <MessageCircle size={24} />
+              <span>AGENDE SUA SESSÃO AGORA</span>
+              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+            </a>
+            
+            <a 
+              href="tel:+5512997405005" 
+              className="bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-3 rounded-xl font-semibold hover:bg-white/20 transition-all duration-300 inline-flex items-center space-x-2 w-full justify-center"
+            >
+              <Phone size={20} />
+              <span>ou ligue agora: (12) 99740-5005</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
