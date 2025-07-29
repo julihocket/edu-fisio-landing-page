@@ -20,7 +20,12 @@ const Contact = () => {
             <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-8">Informações de Contato</h3>
             
             <div className="space-y-4 md:space-y-6">
-              <div className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4 p-4 md:p-6 bg-blue-50 rounded-xl">
+              <a 
+                href="https://g.co/kgs/X5fTbTV"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4 p-4 md:p-6 bg-blue-50 rounded-xl hover:bg-blue-100 transition-colors cursor-pointer group"
+              >
                 <div className="bg-blue-600 p-3 rounded-full flex-shrink-0">
                   <MapPin className="text-white" size={24} />
                 </div>
@@ -29,7 +34,7 @@ const Contact = () => {
                   <p className="text-gray-600">Rua Havana, 34</p>
                   <p className="text-gray-600">São José dos Campos/SP</p>
                 </div>
-              </div>
+              </a>
 
               <a 
                 href="tel:+5512997405005"
