@@ -45,12 +45,12 @@ const About = () => {
               <img 
                 src="/lovable-uploads/285a32c3-4942-4f64-b82c-37512186f825.png" 
                 alt="Dr. Eduardo França trabalhando"
-                className="w-full h-48 object-cover object-center rounded-xl shadow-lg"
+                className="w-full h-64 md:h-80 object-cover object-center rounded-xl shadow-lg"
               />
               <img 
                 src="/lovable-uploads/71084be7-ef16-4b44-9083-32b1d48a0332.png" 
                 alt="Dr. Eduardo França em meditação"
-                className="w-full h-48 object-cover object-center rounded-xl shadow-lg"
+                className="w-full h-64 md:h-80 object-cover object-center rounded-xl shadow-lg"
               />
             </div>
           </div>
