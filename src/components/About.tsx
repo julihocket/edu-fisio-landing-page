@@ -24,19 +24,15 @@ const About = () => {
           <div>
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
               <p>
-                Sou fisioterapeuta, quiropraxista e terapeuta integrativo, atuando com os princípios da osteopatia, medicinas orientais e terapias manuais. São mais de <strong className="text-blue-600">25 anos ajudando pessoas</strong> a se libertarem da dor, recuperarem seu movimento e viverem com mais saúde, leveza e qualidade de vida.
+                São mais de <strong className="text-blue-600">25 anos ajudando pessoas</strong> a se moverem melhor, com menos dor e mais potência — seja para correr mais longe, viver com mais leveza ou simplesmente voltar a fazer o que amam.
               </p>
               
               <p>
-                Minha missão é ajudar pessoas a se libertarem da dor, recuperarem sua capacidade de movimento e viverem com mais qualidade de vida e performance.
+                Minha missão é ativar o corpo, liberar o que trava e destravar o que limita — unindo ciência, sensibilidade e técnica para transformar dor em força e movimento em liberdade.
               </p>
               
               <p>
-                Finalizo a formação internacional em <strong>Osteopatia (DOMP)</strong> pela The Osteopathic College of Ontario (Canadá) e ALO – Academia Latinoamericana de Osteopatia em dezembro de 2025.
-              </p>
-              
-              <p>
-                Sou pós-graduado em <strong>Fisiologia Clínica do Exercício</strong> pela UFSCAR, além de acumular formações em quiropraxia, acupuntura, massoterapia, liberação miofascial, terapias integrativas e recovery esportivo.
+                Atendo quem entende que o corpo é ferramenta de vida — e que performance não é só sobre tempo ou medalha, mas sobre viver no seu melhor.
               </p>
             </div>
 
